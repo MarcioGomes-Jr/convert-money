@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Conversor de moedas</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <a id="logo" href="">Convert Money</a>
+        <nav id="nav">
+            <button id="btn-mobile">
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu">
+
+                <li><a href="#" title="Em breve link para portfólio"><img src="assets/perfil.png"
+                    height="30px" alt="icone-linkedin"></a></li>
+                <li><a href="https://www.linkedin.com/in/marcio-gomes/" target="_blank"><img src="assets/linkedin.png"
+                            height="30px" alt="icone-linkedin"></a></li>
+                <li><a href="https://www.instagram.com/gsj.marcio/" target="_blank"><img src="assets/instagram.png"
+                            height="30px" alt="icone-instagram"></a></li>
+                <li><a href="https://wa.me//5544988148599?text=Olá%20vi%20seu%20projeto%20conversor%20de%20moedas!"
+                        target="_blank"><img src="assets/whatsapp.png" height="30px" alt="icone whatsapp"></a></li>
+                <li><a href="mailto:marciojunior.cm@gmail.com"><img src="assets/gmail.png" height="30px"
+                            alt="icone-email"></a></li>
+                <li><a href="https://github.com/MarcioGomes-Jr" target="_blank"><img src="assets/git.png" height="30px"
+                            alt="icone-github"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <label>
+                Converter <b>de</b>
+                <select id="currency-select1">
+                    <option value="BRL">R$ Real brasileiro</option>
+                    <option value="USD">US$ Dólar americano</option>
+                    <option value="EUR">€ Euro</option>
+                    <option value="BTC">Bitcoin</option>
+                </select>
+            </label>
+
+            <label>
+                Converter <b>para</b>
+                <select id="currency-select2">
+                    <option value="USD">US$ Dólar americano</option>
+                    <option value="EUR">€ Euro</option>
+                    <option value="BTC">Bitcoin</option>
+                    <option value="BRL">R$ Real brasileiro</option>
+                </select>
+            </label>
+
+            <label>
+                Valor
+                <input id="input-currency" placeholder="Digite apenas números">
+            </label>
+            <button id="convert-button" type="button">Converter</button>
+
+            <section>
+                <div class="currency-container">
+                    <img src="./assets/brasil.png" id="currency-img1" alt="Bandeira país conversão de">
+                    <p class="currency-name" id="currency-name1">Real</p>
+                    <p class="currency-value" id="currency-value-input">0,00</p>
+                </div>
+
+                <img class="arow-img" src="./assets/Vector.png" alt="Seta">
+
+                <div class="currency-container">
+                    <img src="./assets/eua.png" id="currency-img2" alt="Bandeira país conversão para">
+                    <p class="currency-name" id="currency-name2">Dólar americano</p>
+                    <p class="currency-value" id="seconde-currency-result">0.00</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="footer-section">
+        <div>
+            <p>Projeto destinado a estudo. Desenvolvido por: <a class="link-footer"
+                    href="https://www.linkedin.com/in/marcio-gomes/" target="_blank">Marcio Gomes</a></p>
+        </div>
+    </footer>
+
+</body>
+<script src="./scripts.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+
+
+</html>
