@@ -23,8 +23,7 @@ function scrollToId(event) {
 }
 
 const convertValues = () => {
-
-    const inputCurrency = document.getElementById('input-currency').value
+    const inputCurrency = document.getElementById('input-currency').value.replace(',', '.')
     const primaryCurrencyValue = document.getElementById('currency-value-input')
     const secondCurrencyResult = document.getElementById('seconde-currency-result')
 
