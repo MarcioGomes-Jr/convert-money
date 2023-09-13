@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-https://marciogomes-jr.github.io/convert-money/
+https://master--polite-dieffenbachia-8cd0a7.netlify.app/
 
 O **Convert Money** é um conversor de moedas simples e intuitivo, criado para testar o aprendizado de HTML5, CSS E JS com consumo de API, foi desenvolvido em aula no programa **Dev Club** com [Rodolfo Mori](https://www.linkedin.com/in/rodolfomori/).
 
